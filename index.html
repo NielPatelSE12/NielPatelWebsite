@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Niel Patel</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: radial-gradient(circle, #86abe4 40%, #f3c6f1 100%);
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .topnav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #3a4b64;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .nav-button {
+            color: #ffffff;
+            background: linear-gradient(135deg, #6a8dc3, #4a6691);
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border-radius: 30px;
+            margin: 0 10px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .nav-button:hover {
+            background: linear-gradient(135deg, #4a6691, #6a8dc3);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            transform: translateY(-3px) scale(1.05);
+        }
+
+        .nav-button.active {
+            background: linear-gradient(135deg, #4a6691, #6a8dc3);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .container {
+            margin-top: 100px;
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #3a4b64;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="topnav">
+        <a href="index.html" class="nav-button active">Homepage</a>
+        <a href="aboutme.html" class="nav-button">About Me</a>
+        <a href="myprojects.html" class="nav-button">My Projects</a>
+        <a href="contactinfo.html" class="nav-button">Contact Information</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Welcome to My Personal Website</h1>
+        <p>Hi, I'm Niel Patel, a passionate software engineer specializing in web and iOS development. Explore my projects, learn more about me, and feel free to connect!</p>
+    </div>
+
+</body>
+</html>
